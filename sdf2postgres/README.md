@@ -33,6 +33,7 @@ The code is partially untested, so bugs can occur.
             -L/usr/pgsql-9.5/lib -o sdf2postgres
 
 4. Start the importing process with 
+
         zcat *.sdf.gz | ./sdf2postgres | psql -c "COPY pubchem (cid, name, \
             exact_mass, formula, molecular_weight, smiles, inchi, inchi_key) FROM \
             stdin" DB_NAME USER_NAME
