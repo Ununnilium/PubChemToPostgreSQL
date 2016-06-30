@@ -1,5 +1,5 @@
 /**
- * @file main.cpp
+ * @file main.c
  * @author  Fabian Heller <heller.fabian@gmail.com>
  *
  * @section LICENSE
